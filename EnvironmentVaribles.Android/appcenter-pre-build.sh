@@ -7,7 +7,7 @@ echo " - LabelText: $LabelText"
 
 IdFile=$BUILD_REPOSITORY_LOCALPATH/EnvironmentVaribles/MainPage.xaml.cs
 
-sed -i '' "s/APP_SECRET/$APP_SECRET/g" $IdFile
+sed -i '' "s/LabelText/$LabelText/g" $IdFile
 
 # Print out file for reference
 cat $IdFile
