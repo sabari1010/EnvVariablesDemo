@@ -10,12 +10,12 @@ namespace EnvironmentVaribles
 
     public partial class MainPage : ContentPage
     {
-        public const string LabelText = "LabelText";
+        public const string DisplayText = "LabelText";
 
         public MainPage()
         {
             InitializeComponent();
-            Title.Text = LabelText;
+            Title.Text = DisplayText;
         }
     }
 }
