@@ -10,7 +10,7 @@ namespace EnvironmentVaribles
 
     public partial class MainPage : ContentPage
     {
-        public const string LabelText = "Hello";
+        public const string LabelText = "LabelText";
 
         public MainPage()
         {
