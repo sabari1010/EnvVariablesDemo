@@ -14,4 +14,7 @@
     <PackageReference Include="Microsoft.AppCenter.Crashes" Version="1.14.0" />
     <PackageReference Include="Microsoft.AppCenter.Analytics" Version="1.14.0" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="appcenter-pre-build.sh" />
+  </ItemGroup>
 </Project>
